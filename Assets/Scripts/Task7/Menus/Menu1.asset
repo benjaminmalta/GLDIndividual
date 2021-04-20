@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab005fdac0236c145a0f7a41959d5d1b, type: 3}
+  m_Name: Menu1
+  m_EditorClassIdentifier: 
+  NPC_Responses:
+  - 
+  menuConversation:
+  - title: Hello there.
+    linkToConversation: {fileID: 11400000, guid: 53ff8955c6a219b49847d6d891b320b4, type: 2}
+    cost: 0
+  - title: Hi
+    linkToConversation: {fileID: 11400000, guid: 53ff8955c6a219b49847d6d891b320b4, type: 2}
+    cost: 0
+  - title: Hello there. What is Your name?
+    linkToConversation: {fileID: 11400000, guid: 36a221538fc989c44b4c84b3f4e03e1a, type: 2}
+    cost: 0
+  - title: Time Dependent
+    linkToConversation: {fileID: 11400000, guid: 53ff8955c6a219b49847d6d891b320b4, type: 2}
+    cost: 0

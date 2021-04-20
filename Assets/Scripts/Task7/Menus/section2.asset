@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab005fdac0236c145a0f7a41959d5d1b, type: 3}
+  m_Name: section2
+  m_EditorClassIdentifier: 
+  NPC_Responses:
+  - 'My name is John '
+  menuConversation:
+  - title: I never heard before that name. I need to buy some upgrades.
+    linkToConversation: {fileID: 11400000, guid: 08b0b82b3f2011844bd4230036b8288c, type: 2}
+    cost: 0
+  - title: How are you?
+    linkToConversation: {fileID: 11400000, guid: da188021c75e5f84aa5a1d54ab265969, type: 2}
+    cost: 0

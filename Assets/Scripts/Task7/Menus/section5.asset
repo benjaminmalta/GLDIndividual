@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab005fdac0236c145a0f7a41959d5d1b, type: 3}
+  m_Name: section5
+  m_EditorClassIdentifier: 
+  NPC_Responses:
+  - Do you want to buy something else?
+  menuConversation:
+  - title: Yes
+    linkToConversation: {fileID: 11400000, guid: 08b0b82b3f2011844bd4230036b8288c, type: 2}
+    cost: 0
+  - title: No
+    linkToConversation: {fileID: 11400000, guid: 6df940ef319fc4d45a9574ff8874cd89, type: 2}
+    cost: 0
